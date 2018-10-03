@@ -27,7 +27,7 @@ This has only been tested for Argentina.
 Usage
 --------
 Install:
-    pip install 
+    ```pip install https://github.com/gbourdin/turecibo_downloader/archive/0.1.0.tar.gz```
 
 Run:
     ```$ turecibo_downloader HASH --pages 100 --output document.pdf```
