@@ -19,7 +19,8 @@ from .turecibo_downloader import DocumentDownloader
 def main(hash, pages=1, output='output.pdf'):
     """
     Download and save the document identified by HASH. See details on how to get
-    hashes from turecibo.com files in the README.md file
+    hashes from turecibo.com files here:
+    https://github.com/gbourdin/turecibo_downloader/blob/master/README.rst
     """
     downloader = DocumentDownloader(
         hash=hash, pages=int(pages), filename=output)

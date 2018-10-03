@@ -17,7 +17,7 @@ TuRecibo Downloader
 
 
 Downloads documents from turecibo.com as PDF
-This has only been tested for Argentina. 
+This has only been tested for Argentina.
 
 
 * Free software: MIT license
@@ -30,7 +30,7 @@ Install:
     pip install 
 
 Run:
-    turecibo_downloader HASH --pages 100 --output document.pdf
+    ```$ turecibo_downloader HASH --pages 100 --output document.pdf```
 
 How to get the hashes:
 1. Using chrome with DevTools open (F12 or Ctrl + J), log in to "turecibo.com"
@@ -40,7 +40,7 @@ How to get the hashes:
     ```https://api.nosconecta.com.ar/eform/thumbnail/b72b7a6053e0212e9f6d1707041acaddb72b7a6053e0212e9f6d1707041acadd?page=1```
 5. From that url, you want everything after the last / and before the ?, so, this: ```b72b7a6053e0212e9f6d1707041acaddb72b7a6053e0212e9f6d1707041acadd```
 6. That's your hash, now use it with the downloader:
-    ```$ turecibo_downloader b72b7a6053e0212e9f6d1707041acaddb72b7a6053e0212e9f6d1707041acadd --pages 100 --output document.pdf   
+    ```$ turecibo_downloader b72b7a6053e0212e9f6d1707041acaddb72b7a6053e0212e9f6d1707041acadd --pages 100 --output document.pdf```   
 
 Features
 --------
